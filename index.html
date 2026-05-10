@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Boehlke Hardware — Neighborhood Hardware Store Since 1927</title>
+  <meta name="description" content="Family-owned neighborhood hardware store in Mequon, Wisconsin. Tools, hardware, and plumbing fixtures since 1927." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PASSWORD GATE -->
+  <div id="gate" class="gate" aria-modal="true" role="dialog" aria-labelledby="gate-title">
+    <div class="gate__card">
+      <div class="gate__wordmark" id="gate-title">Boehlke Hardware</div>
+      <div class="gate__rule"></div>
+      <p class="gate__copy">Speculative redesign — enter password to view.</p>
+      <form id="gate-form" class="gate__form" autocomplete="off">
+        <label class="gate__label" for="gate-input">Password</label>
+        <input id="gate-input" class="gate__input" type="password" autocomplete="off" autofocus />
+        <button type="submit" class="gate__submit">Enter</button>
+      </form>
+      <p class="gate__foot">Est. 1927 · Mequon, Wisconsin</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#top" class="header__brand" aria-label="Boehlke Hardware home">
+        <span class="header__brand-mark">Boehlke</span>
+        <span class="header__brand-sub">Hardware · Est. 1927</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#story" class="nav__link">Story</a>
+        <a href="#plumbing" class="nav__link">Plumbing</a>
+        <a href="#tools" class="nav__link">Tools</a>
+        <a href="#visit" class="nav__link">Visit</a>
+      </nav>
+      <a href="tel:+12622423050" class="phone-chip" aria-label="Call 262-242-3050">
+        <svg class="phone-chip__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>262-242-3050</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile">
+      <a href="#story" class="nav-mobile__link">Story</a>
+      <a href="#plumbing" class="nav-mobile__link">Plumbing</a>
+      <a href="#tools" class="nav-mobile__link">Tools</a>
+      <a href="#visit" class="nav-mobile__link">Visit</a>
+      <a href="tel:+12622423050" class="nav-mobile__phone">Call (262) 242-3050</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="images/hero.png" alt="" />
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__grain" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="eyebrow eyebrow--light reveal" data-reveal-delay="0">Est. 1927 · Mequon, Wisconsin</div>
+        <h1 class="hero__headline reveal" data-reveal-delay="60">
+          Your neighborhood<br/>
+          <em>hardware store</em><br/>
+          since 1927.
+        </h1>
+        <p class="hero__subhead reveal" data-reveal-delay="160">
+          Four generations of the Boehlke family. Tools, hardware, plumbing fixtures &mdash; and the kind of professional advice you can&rsquo;t get from a big-box store.
+        </p>
+        <div class="hero__cta reveal" data-reveal-delay="240">
+          <a href="#visit" class="btn btn--primary">Visit the Store</a>
+          <a href="tel:+12622423050" class="btn btn--ghost">Call (262) 242-3050</a>
+        </div>
+        <div class="hero__meta reveal" data-reveal-delay="320">
+          <span>10712 W Freistadt Rd</span>
+          <span class="hero__meta-dot">·</span>
+          <span>Mon&ndash;Fri · 8:00 AM &ndash; 4:30 PM</span>
+        </div>
+      </div>
+      <a href="#story" class="hero__scroll" aria-label="Scroll to story">
+        <span>Scroll</span>
+        <svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <rect x="0.75" y="0.75" width="12.5" height="20.5" rx="6.25"/>
+          <line x1="7" y1="5" x2="7" y2="9"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- STORY -->
+    <section id="story" class="section section--story">
+      <div class="bigmark bigmark--story" aria-hidden="true">1927</div>
+      <div class="section__inner section__inner--split">
+        <div class="section__lede reveal">
+          <div class="eyebrow">Our Story</div>
+          <h2 class="section__headline">A hundred years on the same corner.</h2>
+          <div class="rule"></div>
+        </div>
+        <div class="section__body reveal" data-reveal-delay="100">
+          <p class="prose prose--lead">
+            Erich Boehlke opened a hardware store in 1927 to serve the local farming community. A few years later, he folded in his brother&rsquo;s plumbing business. The neighborhood has changed a lot since. So has the store.
+          </p>
+          <p class="prose">
+            Today, the third and fourth generations of the Boehlke family run the place. Same dedication to professional service and quality products &mdash; focused on what the community actually needs now.
+          </p>
+          <p class="prose prose--muted">
+            <a class="inline-link" href="http://boehlkeplumbing.com/" target="_blank" rel="noopener">Boehlke Plumbing</a> and <a class="inline-link" href="http://boehlkebgcorp.com/" target="_blank" rel="noopener">Boehlke Bottled Gas</a> are still part of the family.
+          </p>
+        </div>
+      </div>
+      <div class="storefacts">
+        <div class="storefact reveal">
+          <div class="storefact__num">99<span>yrs</span></div>
+          <div class="storefact__label">Family-owned, same corner</div>
+        </div>
+        <div class="storefact reveal" data-reveal-delay="80">
+          <div class="storefact__num">4<span>gens</span></div>
+          <div class="storefact__label">Boehlkes running the place</div>
+        </div>
+        <div class="storefact reveal" data-reveal-delay="160">
+          <div class="storefact__num">3<span>biz</span></div>
+          <div class="storefact__label">Hardware · Plumbing · Bottled Gas</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLUMBING -->
+    <section id="plumbing" class="section section--plumbing">
+      <div class="section__inner">
+        <header class="section__header section__header--center reveal">
+          <div class="eyebrow">Plumbing Department</div>
+          <h2 class="section__headline section__headline--center">A hardware store with a <em>plumber&rsquo;s brain.</em></h2>
+          <p class="section__intro">
+            Boehlke&rsquo;s plumbing roots go back almost as far as the hardware store. We stock &mdash; and know how to advise on &mdash; the lines homeowners and contractors actually want.
+          </p>
+        </header>
+
+        <div class="brandrow reveal" data-reveal-delay="80">
+          <span class="brandrow__name" style="--i:0">Kohler</span>
+          <span class="brandrow__sep">·</span>
+          <span class="brandrow__name" style="--i:1">Moen</span>
+          <span class="brandrow__sep">·</span>
+          <span class="brandrow__name" style="--i:2">A.O. Smith</span>
+          <span class="brandrow__sep">·</span>
+          <span class="brandrow__name" style="--i:3">InSinkErator</span>
+          <span class="brandrow__sep">·</span>
+          <span class="brandrow__name" style="--i:4">Jim Murray</span>
+        </div>
+
+        <div class="brandgrid">
+          <div class="brandgrid__cell reveal" data-reveal-delay="120">
+            <div class="brandgrid__brand">Kohler &amp; Moen</div>
+            <div class="brandgrid__line">Plumbing fixtures</div>
+          </div>
+          <div class="brandgrid__cell reveal" data-reveal-delay="180">
+            <div class="brandgrid__brand">A.O. Smith</div>
+            <div class="brandgrid__line">Water heaters</div>
+          </div>
+          <div class="brandgrid__cell reveal" data-reveal-delay="240">
+            <div class="brandgrid__brand">InSinkErator</div>
+            <div class="brandgrid__line">Kitchen disposals</div>
+          </div>
+          <div class="brandgrid__cell reveal" data-reveal-delay="300">
+            <div class="brandgrid__brand">Jim Murray</div>
+            <div class="brandgrid__line">Sump pumps</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section id="tools" class="section section--tools">
+      <div class="bigmark bigmark--amp" aria-hidden="true">&amp;</div>
+      <div class="section__inner">
+        <header class="section__header reveal">
+          <div class="eyebrow">Tools &amp; Hardware</div>
+          <h2 class="section__headline">Traditional lines,<br/>name brands, real shelves.</h2>
+          <p class="section__intro section__intro--left">
+            We carry the working brands &mdash; the ones that show up in actual job-site truck beds.
+          </p>
+        </header>
+
+        <div class="twocol">
+          <div class="twocol__pane reveal" data-reveal-delay="100">
+            <div class="twocol__kicker">Tools</div>
+            <ul class="brandlist">
+              <li class="brandlist__item"><span class="brandlist__name">Milwaukee</span><span class="brandlist__tag">Power tools</span></li>
+              <li class="brandlist__item"><span class="brandlist__name">Crescent</span><span class="brandlist__tag">Hand tools</span></li>
+              <li class="brandlist__item"><span class="brandlist__name">Irwin</span><span class="brandlist__tag">Bits &amp; clamps</span></li>
+            </ul>
+          </div>
+          <div class="twocol__divider" aria-hidden="true"></div>
+          <div class="twocol__pane reveal" data-reveal-delay="180">
+            <div class="twocol__kicker">Hardware</div>
+            <ul class="brandlist">
+              <li class="brandlist__item"><span class="brandlist__name">Ace</span><span class="brandlist__tag">General hardware</span></li>
+              <li class="brandlist__item"><span class="brandlist__name">Hillman</span><span class="brandlist__tag">Fasteners</span></li>
+              <li class="brandlist__item"><span class="brandlist__name">National Hardware</span><span class="brandlist__tag">Gates &amp; hinges</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why-us" class="section section--why">
+      <div class="section__inner">
+        <header class="section__header reveal">
+          <div class="eyebrow">Why Boehlke</div>
+          <h2 class="section__headline">Old-time hardware store.<br/><em>New-day stock.</em></h2>
+        </header>
+
+        <blockquote class="pullquote reveal" data-reveal-delay="80">
+          <span class="pullquote__open" aria-hidden="true">&ldquo;</span>
+          We work hard to provide professional service and a unique, old-time hardware store shopping experience.
+          <span class="pullquote__close" aria-hidden="true">&rdquo;</span>
+        </blockquote>
+
+        <div class="pillars">
+          <article class="pillar reveal" data-reveal-delay="120">
+            <div class="pillar__num">01</div>
+            <h3 class="pillar__title">Family-owned since 1927</h3>
+            <p class="pillar__copy">Four generations of Boehlkes on the same corner. We&rsquo;ll still be here next time you need us.</p>
+          </article>
+          <article class="pillar reveal" data-reveal-delay="200">
+            <div class="pillar__num">02</div>
+            <h3 class="pillar__title">Professional advice</h3>
+            <p class="pillar__copy">Plumbing-trained staff who can answer the question before you ask it. No upselling, no guessing.</p>
+          </article>
+          <article class="pillar reveal" data-reveal-delay="280">
+            <div class="pillar__num">03</div>
+            <h3 class="pillar__title">Real product knowledge</h3>
+            <p class="pillar__copy">Kohler, Moen, A.O. Smith, Milwaukee, Ace. Lines we know &mdash; and stock.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section id="visit" class="section section--visit">
+      <div class="section__inner">
+        <header class="section__header section__header--center reveal">
+          <div class="eyebrow">Visit Us</div>
+          <h2 class="section__headline section__headline--center">Stop by the store.</h2>
+        </header>
+
+        <div class="visit">
+          <div class="visit__panel reveal" data-reveal-delay="80">
+            <div class="visit__row">
+              <div class="visit__label">Address</div>
+              <div class="visit__value">
+                <strong>Boehlke Hardware</strong><br/>
+                10712 W Freistadt Rd<br/>
+                Mequon, WI 53097
+              </div>
+            </div>
+            <div class="visit__divider"></div>
+            <div class="visit__row">
+              <div class="visit__label">Phone</div>
+              <div class="visit__value">
+                <a href="tel:+12622423050" class="visit__phone">(262) 242-3050</a>
+              </div>
+            </div>
+            <div class="visit__divider"></div>
+            <div class="visit__row">
+              <div class="visit__label">Hours</div>
+              <div class="visit__value">
+                <table class="hours">
+                  <tbody>
+                    <tr><td>Mon &ndash; Fri</td><td>8:00 AM &ndash; 4:30 PM</td></tr>
+                    <tr><td>Saturday</td><td class="hours__closed">Closed</td></tr>
+                    <tr><td>Sunday</td><td class="hours__closed">Closed</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="visit__divider"></div>
+            <div class="visit__row">
+              <div class="visit__label">Area</div>
+              <div class="visit__value visit__value--muted">
+                Serving Mequon, Thiensville, Cedarburg, Grafton, Bayside, Fox Point and the surrounding North Shore.
+              </div>
+            </div>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=10712+W+Freistadt+Rd+Mequon+WI+53097" class="btn btn--primary btn--wide" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+          <div class="visit__map reveal" data-reveal-delay="160">
+            <div class="visit__map-frame">
+              <iframe
+                title="Map of Boehlke Hardware, 10712 W Freistadt Rd, Mequon, WI"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.701438410157!2d-88.04404200000005!3d43.236719000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8804fb7da273c3d7%3A0xe84f52a8b4b060fd!2s10712+W+Freistadt+Rd!5e0!3m2!1sen!2s!4v1401960218313"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__wordmark">Boehlke Hardware</div>
+        <div class="footer__tag">Family owned since 1927.</div>
+        <address class="footer__addr">
+          10712 W Freistadt Rd<br/>
+          Mequon, WI 53097<br/>
+          <a href="tel:+12622423050" class="footer__phone">(262) 242-3050</a>
+        </address>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__heading">The Boehlke Family</div>
+        <ul class="footer__list">
+          <li><span>Boehlke Hardware</span> <em>This site</em></li>
+          <li><a class="inline-link" href="http://boehlkeplumbing.com/" target="_blank" rel="noopener">Boehlke Plumbing</a></li>
+          <li><a class="inline-link" href="http://boehlkebgcorp.com/" target="_blank" rel="noopener">Boehlke Bottled Gas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__heading">Hours</div>
+        <ul class="footer__list footer__list--plain">
+          <li>Mon &ndash; Fri · 8:00 AM &ndash; 4:30 PM</li>
+          <li>Sat · Closed</li>
+          <li>Sun · Closed</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__heading">Visit</div>
+        <ul class="footer__list footer__list--plain">
+          <li><a class="inline-link" href="#visit">Directions &amp; map</a></li>
+          <li><a class="inline-link" href="tel:+12622423050">Call the store</a></li>
+          <li><a class="inline-link" href="https://boehlkehardware.com/wp-content/uploads/Accessibility.pdf" target="_blank" rel="noopener">Accessibility (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        &copy; 1927&ndash;<span id="year">2026</span> Boehlke Hardware. Family owned.
+      </div>
+      <div class="footer__meta">
+        Built with care in Mequon, Wisconsin.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

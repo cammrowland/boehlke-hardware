@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "boehlke-static",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "/Users/cammrowland/futurenative/projects/boehlke-hardware"],
+      "port": 4321
+    }
+  ]
+}
