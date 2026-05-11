@@ -112,7 +112,7 @@ body.is-locked main, body.is-locked .header, body.is-locked .footer { filter: bl
   pointer-events: none;
   background: linear-gradient(180deg, var(--c-mustard-soft), transparent 30%);
 }
-.gate__logo { max-height: 44px; width: auto; margin-bottom: 4px; }
+.gate__logo { max-height: 44px; width: auto; margin: 0 auto 4px; display: block; }
 .gate__wordmark {
   font-family: var(--f-display);
   font-weight: 500;
